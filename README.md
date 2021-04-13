@@ -14,7 +14,17 @@ npm i grunt-jshint-event-reporter --save-dev
 
 ##  Usage
 
-```shell
+Need to set to jshint options
+
+```javascript
+jshint: {
+  options: {
+    reporter: require('grunt-jshint-event-reporter')
+  }
+}
+```
+
+```javascript
 grunt.event.on('jshint-error', function(err){
     console.log(JSON.stringify(err));
 });
