@@ -1,6 +1,3 @@
-.npmignore
-index_old.js
 git-com.txt
 source/
-node_modules/
 package-lock.json
