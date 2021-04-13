@@ -34,7 +34,7 @@ module.exports = {
 		});
 
 		if(len > 0){
-			grunt.event.emit('jshint_reporter', results);
+			grunt.event.emit('jshint-error', results);
 		}
 
 		if (str) {
