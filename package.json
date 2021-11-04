@@ -1,6 +1,6 @@
 {
   "name": "grunt-jshint-event-reporter",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Calls an error event for jshint",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "error",
     "event"
   ],
-  "homepage": "https://github.com/semiromid/grunt-jshint-event-reporter",
-  "bugs": "https://github.com/semiromid/grunt-jshint-event-reporter/issues",  
-  "author": "Yuri Svetlov",
+  "homepage": "https://github.com/Yuriy-Svetlov/grunt-jshint-event-reporter",
+  "bugs": "https://github.com/Yuriy-Svetlov/grunt-jshint-event-reporter/issues",  
+  "author": "Yuriy-Svetlov",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:semiromid/grunt-jshint-event-reporter.git"
+    "url": "git@github.com:Yuriy-Svetlov/grunt-jshint-event-reporter.git"
   },
   "files": [
     "LICENSE",
